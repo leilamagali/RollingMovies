@@ -19,14 +19,17 @@
                         <h2 class="card-header text-center w-100">
                             <img src="https://campus.rollingcodeschool.com/pluginfile.php/1/core_admin/logo/0x200/1633815474/logo2.png" class="img-card" alt="Logo-Rolling">
                         </h2>
-                        <div class="card-body">
-                            <form class="formulario" id="formLogin">
+                        <div class="card-body" id="card-body">
+                            <form action="#" class="formulario" id="formLogin">
+                                <p class="alert alert-danger text-center login-correcto">
+                                    La dirección o contraseña que escribiste no es correcta. Prueba otra vez o haz clic en el enlace "Olvidaste tu contraseña".
+                                </p>
                                 <div class="input-group mb-3">
                                     <span class="input-group-text">
                                         <i class="bi bi-person-fill"></i>
                                     </span>
                                     <div class="form-floating">
-                                        <input type="email" class="form-control" id="user" placeholder="Escribe tu correo"  autocomplete="off" required>
+                                        <input type="email" class="form-control" id="email" placeholder="Escribe tu correo" required>
                                         <label for="user">Correo</label>
                                     </div>
                                 </div>
@@ -37,7 +40,7 @@
                                     </span>
                                     <div class="form-floating">
                                         <input class="form-control" type="password" id="password" placeholder="Escribe tu contraseña" required
-                                            minlength="8" maxlength="12">
+                                            minlength="4" maxlength="12">
                                         <label>Contraseña</label>
                                     </div>
                                 </div>
@@ -52,7 +55,12 @@
                                 </div>
                 
                                 <div class="button-sumbit">
-                                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                                    <button type="submit" class="btn btn-primary position-relative d-flex justify-content-center align-items-center" id="btn-submit">
+                                        <div class="spinner-border text-light" role="status">
+                                            <span class="visually-hidden"></span>
+                                          </div>
+                                          Ingresar
+                                    </button>
                                 </div>
                 
                                 <div class="forgot">
@@ -76,7 +84,7 @@
     </footer>
 
     <script src="bootstrap/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
-    <script type="module" src=""></script>
+    <script type="module" src="js/loginControlador.js"></script>
 </body>
 
 </html>
