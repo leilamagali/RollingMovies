@@ -65,5 +65,20 @@ export  class UsuariosDB {
         return usuarioEncontrado;
     }
 
+
+    validarLogin(email, password){
+        let valido = false;
+
+        const usuarios = this.establecerConexion();
+
+        usuarios.forEach(usuario => {
+            if(email === usuario.email && password === usuario.password){
+                valido = true;
+            }
+        });
+
+        return valido;
+    }
+
 }
 

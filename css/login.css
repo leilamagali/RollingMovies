@@ -1,7 +1,7 @@
 /* Efectos generales  */
 
 body{
-    background: url(/Proyecto/img/pexels-pixabay-39284.jpg) no-repeat;
+    background: url(/img/pexels-pixabay-39284.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -132,6 +132,27 @@ footer{
 
 }
 
+.login-correcto {
+    display: none;
+}
+
+.login-incorrecto {
+    display: block;
+}
+
+
+.spinner-border{
+    position: absolute;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    display: none;
+}
+
+.spinner-border-activo{
+    display: block;
+}
 
 @media screen and (max-width: 575px){
     .card {
