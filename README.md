@@ -2,7 +2,7 @@
 
 - Aramayo, Wilber David
 - Franco L
-- Leila Magali
+- Leila Lovisa
 - Maximo
 - Cristian
 
