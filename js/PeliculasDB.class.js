@@ -20,8 +20,7 @@ export class PeliculasDB {
                     publicado: true,
                     img_portada: '/img/peliculas/portadas/Oppenheimer_portada.jpg',
                     img_fondo: '/img/peliculas/fondos/Oppenheimer_fondo.jpg',
-                    url_trailer: 'https://youtu.be/yLYbOe914ZU?si=s86bPU_fgA0AjQi1',
-                    url_pelicula: 'https://youtu.be/Krlj0cw42Do?si=8vZDtsJwRp7Q6uDF'
+                    url_trailer: 'https://youtu.be/yLYbOe914ZU?si=s86bPU_fgA0AjQi1'
                 }
             ];
     
@@ -49,8 +48,7 @@ export class PeliculasDB {
             destacada: objPelicula.destacada,
             img_portada: objPelicula.img_portada,
             img_fondo: objPelicula.img_fondo,
-            url_trailer: objPelicula.url_trailer,
-            url_pelicula: objPelicula.url_pelicula
+            url_trailer: objPelicula.url_trailer
         };
 
         let peliculasDB = this.establecerConexion();
