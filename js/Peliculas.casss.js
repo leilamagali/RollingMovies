@@ -1,6 +1,6 @@
 export class Peliculas {
 
-    constructor(codigo, nombre, categoria, genero, publicado, img_portada, img_fondo ,url_trailer, url_video){
+    constructor(codigo, nombre, categoria, genero, publicado, img_portada, img_fondo ,url_trailer){
         this.codigo;
         this.nombre;
         this.categoria
@@ -9,7 +9,6 @@ export class Peliculas {
         this.img_portada
         this.img_fondo
         this.url_trailer;
-        this.url_video;
     }
 
     mostrar(){
