@@ -20,7 +20,7 @@ export class PeliculasDB {
                     publicado: true,
                     img_portada: '/img/peliculas/portadas/Oppenheimer_portada.jpg',
                     img_fondo: '/img/peliculas/fondos/Oppenheimer_fondo.jpg',
-                    url_trailer: 'https://youtu.be/yLYbOe914ZU?si=s86bPU_fgA0AjQi1',
+                    url_trailer: 'https://youtu.be/yLYbOe914ZU?si=s86bPU_fgA0AjQi1'
                 }
             ];
     
@@ -45,6 +45,7 @@ export class PeliculasDB {
             categoria: objPelicula.categoria,
             genero: objPelicula.genero,
             publicado: objPelicula.publicado,
+            destacada: objPelicula.destacada,
             img_portada: objPelicula.img_portada,
             img_fondo: objPelicula.img_fondo,
             url_trailer: objPelicula.url_trailer
