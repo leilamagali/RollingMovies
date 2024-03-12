@@ -46,6 +46,7 @@ export class PeliculasDB {
             categoria: objPelicula.categoria,
             genero: objPelicula.genero,
             publicado: objPelicula.publicado,
+            destacada: objPelicula.destacada,
             img_portada: objPelicula.img_portada,
             img_fondo: objPelicula.img_fondo,
             url_trailer: objPelicula.url_trailer,
